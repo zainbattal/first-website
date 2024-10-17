@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+}
+.full-dock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-and-name {
+  display: flex;
+  width: 100px;
+  align-items: center;
+}
+
+.upper-dock {
+  display: flex;
+  justify-content: center;
+  width: 1300px;
+  align-items: center;
+}
+.upper-dock-image {
+  margin: 20px;
+  margin-top: 5px;
+  width: 40px;
+  transition: transform, 0.2s;
+  cursor: pointer;
+}
+.upper-dock-image:hover {
+  transform: scale(1.3);
+}
+h1 {
+  color: white;
+  font-family: "Roboto", Arial;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.welcoming {
+  color: white;
+  font-family: "Roboto", Arial;
+  width: 800px;
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.log-in {
+  margin: 5px;
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-style: solid;
+  transition: all, 0.2s;
+  transform: scale(1.15);
+}
+.log-in:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.sign-up {
+  border-color: white;
+  margin: 5px;
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  transition: all, 0.2s;
+  transform: scale(1.15);
+}
+.sign-up:hover {
+  background-color: white;
+  color: black;
+}
+.sign-up:active {
+  opacity: 0.6;
+}
+.log-in:active {
+  opacity: 0.6;
+}
+.logo {
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+.invite {
+  color: white;
+  font-family: "Roboto", Arial;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.centre-invite {
+  display: flex;
+  justify-content: center;
+}
+.downlaod-box {
+  width: 300px;
+  height: 400px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  transition: transform, 0.2s;
+}
+.downlaod-box:hover {
+  transform: scale(1.08);
+}
+.os-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.downlaod-button {
+  border-color: white;
+
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  transition: all, 0.2s;
+}
+.downlaod-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.align-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.downlaod-button2 {
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-style: solid;
+  transition: all, 0.2s;
+  width: 200px;
+  margin-top: 30px;
+}
+.downlaod-button2:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.download-boxes {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.beggin {
+  margin-top: 70px;
+}
+.apple {
+  width: 125px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ios {
+  color: white;
+  font-family: "Roboto", Arial;
+  font-size: 45px;
+  margin-top: 85px;
+  margin-bottom: 55px;
+}
+.my-icon {
+  size: 12px;
+}
